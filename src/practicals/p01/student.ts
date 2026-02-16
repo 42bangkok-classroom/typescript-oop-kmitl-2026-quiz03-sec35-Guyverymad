@@ -7,6 +7,6 @@ constructor(firstname?:string,lastname?:string){
     this.lastname=lastname
 
  }printName(){
-    console.log(`${this.firstname}${this.lastname}`)
+    console.log(`${this.firstname} ${this.lastname}`)
  }
 }
