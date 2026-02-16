@@ -12,12 +12,13 @@ export class Person {
             this.lastname=lastname
         }
         this.lastname=lastname
-    }setAge(value:number){
-        this.age = value; 
+    }setAge(age:number){
+        this.age = age; 
     }getAge(){
         return this.age; 
 
     }getFullName(){
+        return(`${this.firstname} ${this.lastname}`)
 
     }
 }
