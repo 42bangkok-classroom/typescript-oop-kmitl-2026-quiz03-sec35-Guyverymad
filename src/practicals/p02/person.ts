@@ -14,7 +14,7 @@ export class Person {
         this.lastname=lastname
     }
     setAge(age:number){
-        this.age = age; 
+        return this.age = age; 
     }
     getAge(){
         return this.age; 
